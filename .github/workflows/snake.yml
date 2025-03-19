@@ -1,26 +1,28 @@
-name: ci
-on: [pull_request]
+name: Generate Snake Contribution Grid
+
+on:
+  schedule:
+    - cron: "0 0 * * *"  # يتم التحديث يوميًا
+  workflow_dispatch:
 
 jobs:
-  ci:
+  generate:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
-      - name: Setup Node
-        uses: actions/setup-node@v1
+      - name: Generate Snake Animation
+        uses: Platane/snk@v2
         with:
-          node-version: 14.x
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/snake.svg
 
-      - name: Install dependencies
-        run: yarn install --frozen-lockfile
+      - name: Commit and Push Changes
+        uses: EndBug/add-and-commit@v9
+        with:
+          add: "dist/snake.svg"
+          message: "Updated Snake Animation"
+          push: true
 
-      - name: Linting
-        run: yarn lint
-
-      - name: Test
-        run: yarn test --coverage=false
-
-      - name: Build
-        run: yarn build
