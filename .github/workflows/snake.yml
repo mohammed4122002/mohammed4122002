@@ -2,7 +2,7 @@ name: Generate Snake Contribution Grid
 
 on:
   schedule:
-    - cron: "0 0 * * *"  # يتم التحديث يوميًا
+    - cron: "0 0 * * *"  # التحديث يوميًا
   workflow_dispatch:
 
 jobs:
@@ -15,7 +15,7 @@ jobs:
       - name: Generate Snake Animation
         uses: Platane/snk@v2
         with:
-          github_user_name: ${{ github.repository_owner }}
+          github_user_name: ${{ github.repository_owner }}  # تأكد من أن هذا القيمة مهيأة
           outputs: |
             dist/snake.svg
 
@@ -25,4 +25,3 @@ jobs:
           add: "dist/snake.svg"
           message: "Updated Snake Animation"
           push: true
-
