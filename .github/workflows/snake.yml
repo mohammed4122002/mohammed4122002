@@ -15,7 +15,7 @@ jobs:
       - name: Generate Snake Animation
         uses: Platane/snk@v2
         with:
-          github_user_name: ${{ github.repository_owner }}  # تأكد من أن هذا القيمة مهيأة
+          github_user_name: "mohammed4122002"  # تأكد من أن هذا هو اسم المستخدم الصحيح
           outputs: |
             dist/snake.svg
 
