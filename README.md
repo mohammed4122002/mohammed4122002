@@ -4,8 +4,20 @@
 ---
 
 ### 🛠️ Tech Stack:
-<div align="center">
-  <img src="https://skillicons.dev/icons?i=react,nextjs,js,ts,redux,tailwind,materialui,git,docker,linux" />
+<div align="center" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px;">
+  <img src="https://techstack-generator.vercel.app/js-icon.svg" alt="JavaScript" width="86" height="86" />
+  <img src="https://techstack-generator.vercel.app/ts-icon.svg" alt="TypeScript" width="86" height="86" />
+  <img src="https://techstack-generator.vercel.app/react-icon.svg" alt="React" width="86" height="86" />
+  <img src="https://techstack-generator.vercel.app/redux-icon.svg" alt="Redux" width="86" height="86" />
+  <img src="https://techstack-generator.vercel.app/sass-icon.svg" alt="Sass" width="86" height="86" />
+  <img src="https://techstack-generator.vercel.app/webpack-icon.svg" alt="Webpack" width="86" height="86" />
+  <img src="https://techstack-generator.vercel.app/gatsby-icon.svg" alt="Gatsby" width="86" height="86" />
+  <img src="https://techstack-generator.vercel.app/jest-icon.svg" alt="Jest" width="86" height="86" />
+  <img src="https://techstack-generator.vercel.app/eslint-icon.svg" alt="ESLint" width="86" height="86" />
+  <img src="https://techstack-generator.vercel.app/github-icon.svg" alt="GitHub" width="86" height="86" />
+  <img src="https://techstack-generator.vercel.app/docker-icon.svg" alt="Docker" width="86" height="86" />
+  <img src="https://techstack-generator.vercel.app/aws-icon.svg" alt="AWS" width="86" height="86" />
+  <img src="https://techstack-generator.vercel.app/restapi-icon.svg" alt="REST API" width="86" height="86" />
 </div>
 
 ---
