@@ -8,6 +8,7 @@
   <img src="https://techstack-generator.vercel.app/js-icon.svg" alt="JavaScript" width="86" height="86" />
   <img src="https://techstack-generator.vercel.app/ts-icon.svg" alt="TypeScript" width="86" height="86" />
   <img src="https://techstack-generator.vercel.app/react-icon.svg" alt="React" width="86" height="86" />
+  <img src="https://techstack-generator.vercel.app/nextjs-icon.svg" alt="Next.js" width="86" height="86" />
   <img src="https://techstack-generator.vercel.app/redux-icon.svg" alt="Redux" width="86" height="86" />
   <img src="https://techstack-generator.vercel.app/sass-icon.svg" alt="Sass" width="86" height="86" />
   <img src="https://techstack-generator.vercel.app/webpack-icon.svg" alt="Webpack" width="86" height="86" />
@@ -37,6 +38,13 @@
 
 ---
 
+### 🏆 GitHub Trophies:
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=mohammed4122002&theme=radical&no-frame=true&margin-w=10&column=7" alt="GitHub Trophies" />
+</div>
+
+---
+
 ### 🌍 Connect with Me:
 <div align="center">
   <a href="https://facebook.com/yourprofile"><img src="https://skillicons.dev/icons?i=facebook" height="30" /></a>
@@ -46,11 +54,4 @@
   <a href="https://stackoverflow.com/users/yourid"><img src="https://skillicons.dev/icons?i=stackoverflow" height="30" /></a>
   <a href="https://twitter.com/yourprofile"><img src="https://skillicons.dev/icons?i=twitter" height="30" /></a>
   <a href="https://t.me/yourusername"><img src="https://skillicons.dev/icons?i=telegram" height="30" /></a>
-</div>
-
----
-
-### 🐍 GitHub Contribution Snake:
-<div align="center">
-  <img src="https://raw.githubusercontent.com/mohammed4122002/mohammed4122002/output/snake.svg" alt="Snake Animation">
 </div>
