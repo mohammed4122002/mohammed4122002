@@ -1,4 +1,4 @@
-زبطلي الملف الشخصي على القيت هب : <h1 align="center">Hey there! 👋 I'm Mohammed Saada</h1>
+<h1 align="center">Hey there! 👋 I'm Mohammed Saada</h1>
 <h3 align="center">🚀 Web Developer | 💻 React & Next.js Enthusiast | 🌍 From Gaza, Palestine</h3>
 
 ---
