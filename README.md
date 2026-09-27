@@ -88,7 +88,7 @@ Supervisor workflow routing requests to specialised research/writing/data agents
 </tr>
 <tr>
 <td width="50%">
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=mohammed4122002&theme=radical&hide_border=true" width="100%" alt="GitHub Streak" />
+<img src="https://streak-stats.demolab.com/?user=mohammed4122002&theme=radical&hide_border=true" width="100%" alt="GitHub Streak" />
 </td>
 <td width="50%">
 <img src="https://github-profile-trophy.vercel.app/?username=mohammed4122002&theme=radical&no-frame=true&row=2&column=3&margin-w=8&margin-h=8" width="100%" alt="trophies" />
