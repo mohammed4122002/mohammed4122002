@@ -182,7 +182,9 @@ A conversational assessment experience that creates personalized reports and aut
 <br/><br/>
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=mohammed4122002&theme=onestar&column=7" alt="GitHub Trophies" width="100%" />
+  <a href="https://github.com/mohammed4122002?tab=achievements">
+    <img src="https://img.shields.io/badge/GITHUB_ACHIEVEMENTS-Explore_Badges-D4AF37?style=for-the-badge&labelColor=0B0F19&logo=github&logoColor=FFFFFF" alt="Explore GitHub achievements" />
+  </a>
 </p>
 
 </div>
