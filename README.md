@@ -181,7 +181,9 @@ A conversational assessment experience that creates personalized reports and aut
 
 <br/><br/>
 
-<img width="100%" src="https://github-profile-trophy.vercel.app/?username=mohammed4122002&theme=onestar&no-frame=true&no-bg=true&margin-w=8&row=1" alt="GitHub trophies" />
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=mohammed4122002&theme=onestar&column=7" alt="GitHub Trophies" width="100%" />
+</p>
 
 </div>
 
