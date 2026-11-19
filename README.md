@@ -19,12 +19,16 @@
 
 <br/><br/>
 
+<img src="assets/terminal.svg" width="760" alt="Animated terminal intro" />
+
+<br/><br/>
+
 <img src="https://komarev.com/ghpvc/?username=mohammed4122002&style=for-the-badge&color=D4AF37&label=PROFILE+VIEWS" alt="Profile views" />
 <img src="https://img.shields.io/github/followers/mohammed4122002?style=for-the-badge&color=D4AF37&labelColor=0B0F19&label=FOLLOWERS" alt="GitHub followers" />
 
 </div>
 
----
+<div align="center"><img src="assets/divider.svg" width="100%" alt="" /></div>
 
 ## ◈ About Me
 
@@ -40,7 +44,7 @@ I work across the full journey: understanding a problem, designing the workflow,
 
 **Based in Gaza, Palestine · Open to remote opportunities and collaborations.**
 
----
+<div align="center"><img src="assets/divider.svg" width="100%" alt="" /></div>
 
 ## ◈ Featured Work
 
@@ -111,11 +115,15 @@ A conversational assessment experience that creates personalized reports and aut
 </tr>
 </table>
 
----
+<div align="center"><img src="assets/divider.svg" width="100%" alt="" /></div>
 
 ## ◈ Technology Arsenal
 
 <div align="center">
+
+<img src="assets/marquee.svg" width="100%" alt="Scrolling technology stack" />
+
+<br/>
 
 ### AI · Agents · Automation
 <img src="https://skillicons.dev/icons?i=python&theme=dark" />
@@ -138,7 +146,7 @@ A conversational assessment experience that creates personalized reports and aut
 | **Frontend** | React, Next.js 15, TypeScript, JavaScript, Tailwind CSS, Framer Motion, HTML, CSS |
 | **Engineering** | Data Structures, Algorithms, Problem Solving, Git, GitHub, Chrome DevTools |
 
----
+<div align="center"><img src="assets/divider.svg" width="100%" alt="" /></div>
 
 ## ◈ Experience & Education
 
@@ -150,7 +158,7 @@ A conversational assessment experience that creates personalized reports and aut
 | **Full Stack Developer Intern (Node.js)** | Areisto Software | Sep 2025 – Nov 2025 |
 | **B.Sc. Computer Systems Engineering** | Al-Azhar University, Gaza | 2022 – 2026 |
 
----
+<div align="center"><img src="assets/divider.svg" width="100%" alt="" /></div>
 
 ## ◈ Certifications
 
@@ -162,7 +170,7 @@ A conversational assessment experience that creates personalized reports and aut
 - Building Marketing Workflows with n8n — DataCamp
 - Introduction to AI Agents — DataCamp
 
----
+<div align="center"><img src="assets/divider.svg" width="100%" alt="" /></div>
 
 ## ◈ GitHub Intelligence
 
@@ -189,7 +197,7 @@ A conversational assessment experience that creates personalized reports and aut
 
 </div>
 
----
+<div align="center"><img src="assets/divider.svg" width="100%" alt="" /></div>
 
 ## ◈ Let's Build Something Intelligent
 
