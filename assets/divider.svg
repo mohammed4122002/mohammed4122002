@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="28" viewBox="0 0 900 28">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1">
+      <stop offset="0" stop-color="#D4AF37" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#D4AF37"/>
+      <stop offset="1" stop-color="#D4AF37" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-200%" width="200%" height="500%">
+      <feGaussianBlur stdDeviation="2.5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect x="40" y="13" width="820" height="2" fill="url(#g)" opacity="0.45"/>
+  <g filter="url(#glow)">
+    <rect y="12" width="140" height="4" rx="2" fill="url(#g)">
+      <animate attributeName="x" values="-140;900" dur="3.6s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+  <g transform="translate(450 14)" filter="url(#glow)">
+    <path d="M0 -8 L8 0 L0 8 L-8 0 Z" fill="#D4AF37">
+      <animateTransform attributeName="transform" type="rotate" values="0;360" dur="8s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="1;.5;1" dur="2.4s" repeatCount="indefinite"/>
+    </path>
+    <circle r="14" fill="none" stroke="#D4AF37" stroke-width="1">
+      <animate attributeName="r" values="8;22" dur="2.4s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values=".7;0" dur="2.4s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+</svg>

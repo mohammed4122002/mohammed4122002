@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="210" viewBox="0 0 900 210">
+  <style>
+    text{font-family:'JetBrains Mono',Consolas,monospace;font-size:15px}
+    .p{fill:#D4AF37}.c{fill:#E6EDF3}.k{fill:#8B949E}.v{fill:#E7D9B0}
+    .l{opacity:0;animation:show .01s forwards}
+    .l1{animation-delay:.4s}.l2{animation-delay:1.6s}.l3{animation-delay:2.8s}.l4{animation-delay:4s}
+    @keyframes show{to{opacity:1}}
+    .cur{animation:blink 1s steps(2) infinite}
+    @keyframes blink{50%{opacity:0}}
+    .glow{animation:pulse 3s ease-in-out infinite}
+    @keyframes pulse{50%{opacity:.6}}
+  </style>
+  <rect x="1" y="1" width="898" height="208" rx="12" fill="#0B0F19" stroke="#D4AF37" stroke-opacity=".6" class="glow"/>
+  <rect x="1" y="1" width="898" height="34" rx="12" fill="#182234"/>
+  <circle cx="24" cy="18" r="6" fill="#FF5F56"/><circle cx="46" cy="18" r="6" fill="#FFBD2E"/><circle cx="68" cy="18" r="6" fill="#27C93F"/>
+  <text x="450" y="23" text-anchor="middle" class="k" style="font-size:12px">mohammed@agentic-ai: ~</text>
+  <g class="l l1"><text x="24" y="68"><tspan class="p">❯</tspan> <tspan class="c">whoami</tspan></text><text x="48" y="90" class="v">Mohammed Abu Saada — Agentic AI Engineer</text></g>
+  <g class="l l2"><text x="24" y="116"><tspan class="p">❯</tspan> <tspan class="c">cat focus.txt</tspan></text><text x="48" y="138" class="v">AI Agents · RAG · Voice AI · n8n Automation</text></g>
+  <g class="l l3"><text x="24" y="164"><tspan class="p">❯</tspan> <tspan class="c">status --now</tspan></text></g>
+  <g class="l l4"><text x="48" y="186" class="v">● Shipping products · Open to remote work</text></g>
+  <rect x="470" y="173" width="9" height="16" class="cur" fill="#D4AF37"/>
+</svg>
