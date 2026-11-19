@@ -185,6 +185,13 @@ A conversational assessment experience that creates personalized reports and aut
 
 <br/><br/>
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mohammed4122002/mohammed4122002/output/github-snake-dark.svg" />
+  <img alt="Animated snake eating my contribution graph" src="https://raw.githubusercontent.com/mohammed4122002/mohammed4122002/output/github-snake.svg" width="100%" />
+</picture>
+
+<br/><br/>
+
 <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=mohammed4122002&bg_color=0B0F19&color=E6EDF3&line=D4AF37&point=FFFFFF&area=true&hide_border=true" alt="Contribution activity graph" />
 
 <br/><br/>
