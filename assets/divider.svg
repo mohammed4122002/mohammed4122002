@@ -1,29 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="28" viewBox="0 0 900 28">
-  <defs>
-    <linearGradient id="g" x1="0" x2="1">
-      <stop offset="0" stop-color="#D4AF37" stop-opacity="0"/>
-      <stop offset="0.5" stop-color="#D4AF37"/>
-      <stop offset="1" stop-color="#D4AF37" stop-opacity="0"/>
-    </linearGradient>
-    <filter id="glow" x="-50%" y="-200%" width="200%" height="500%">
-      <feGaussianBlur stdDeviation="2.5" result="b"/>
-      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
-  </defs>
-  <rect x="40" y="13" width="820" height="2" fill="url(#g)" opacity="0.45"/>
-  <g filter="url(#glow)">
-    <rect y="12" width="140" height="4" rx="2" fill="url(#g)">
-      <animate attributeName="x" values="-140;900" dur="3.6s" repeatCount="indefinite"/>
-    </rect>
-  </g>
-  <g transform="translate(450 14)" filter="url(#glow)">
-    <path d="M0 -8 L8 0 L0 8 L-8 0 Z" fill="#D4AF37">
-      <animateTransform attributeName="transform" type="rotate" values="0;360" dur="8s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="1;.5;1" dur="2.4s" repeatCount="indefinite"/>
-    </path>
-    <circle r="14" fill="none" stroke="#D4AF37" stroke-width="1">
-      <animate attributeName="r" values="8;22" dur="2.4s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values=".7;0" dur="2.4s" repeatCount="indefinite"/>
-    </circle>
-  </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="28" viewBox="0 0 1000 28"><defs>
+<linearGradient id="d" x1="0" x2="1"><stop offset="0" stop-color="#D4AF37" stop-opacity="0"/><stop offset=".5" stop-color="#D4AF37"/><stop offset="1" stop-color="#D4AF37" stop-opacity="0"/></linearGradient>
+<linearGradient id="t" x1="0" x2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+<filter id="glow" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="2.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+<rect x="0" y="13" width="1000" height="2" fill="url(#d)" opacity=".7"/>
+<rect y="12.5" width="140" height="3" fill="url(#t)" filter="url(#glow)"><animate attributeName="x" from="-140" to="1000" dur="4.5s" repeatCount="indefinite"/></rect>
+<g transform="translate(500 14)"><rect x="-7" y="-7" width="14" height="14" fill="#0B0F19" stroke="#D4AF37" stroke-width="2" filter="url(#glow)"><animateTransform attributeName="transform" type="rotate" from="45" to="405" dur="6s" repeatCount="indefinite"/></rect><circle r="2.5" fill="#FFF3C4"><animate attributeName="r" values="2;3.5;2" dur="2s" repeatCount="indefinite"/></circle></g></svg>

@@ -1,22 +1,28 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="210" viewBox="0 0 900 210">
-  <style>
-    text{font-family:'JetBrains Mono',Consolas,monospace;font-size:15px}
-    .p{fill:#D4AF37}.c{fill:#E6EDF3}.k{fill:#8B949E}.v{fill:#E7D9B0}
-    .l{opacity:0;animation:show .01s forwards}
-    .l1{animation-delay:.4s}.l2{animation-delay:1.6s}.l3{animation-delay:2.8s}.l4{animation-delay:4s}
-    @keyframes show{to{opacity:1}}
-    .cur{animation:blink 1s steps(2) infinite}
-    @keyframes blink{50%{opacity:0}}
-    .glow{animation:pulse 3s ease-in-out infinite}
-    @keyframes pulse{50%{opacity:.6}}
-  </style>
-  <rect x="1" y="1" width="898" height="208" rx="12" fill="#0B0F19" stroke="#D4AF37" stroke-opacity=".6" class="glow"/>
-  <rect x="1" y="1" width="898" height="34" rx="12" fill="#182234"/>
-  <circle cx="24" cy="18" r="6" fill="#FF5F56"/><circle cx="46" cy="18" r="6" fill="#FFBD2E"/><circle cx="68" cy="18" r="6" fill="#27C93F"/>
-  <text x="450" y="23" text-anchor="middle" class="k" style="font-size:12px">mohammed@agentic-ai: ~</text>
-  <g class="l l1"><text x="24" y="68"><tspan class="p">❯</tspan> <tspan class="c">whoami</tspan></text><text x="48" y="90" class="v">Mohammed Abu Saada — Agentic AI Engineer</text></g>
-  <g class="l l2"><text x="24" y="116"><tspan class="p">❯</tspan> <tspan class="c">cat focus.txt</tspan></text><text x="48" y="138" class="v">AI Agents · RAG · Voice AI · n8n Automation</text></g>
-  <g class="l l3"><text x="24" y="164"><tspan class="p">❯</tspan> <tspan class="c">status --now</tspan></text></g>
-  <g class="l l4"><text x="48" y="186" class="v">● Shipping products · Open to remote work</text></g>
-  <rect x="470" y="173" width="9" height="16" class="cur" fill="#D4AF37"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="262" viewBox="0 0 900 262" role="img" aria-label="Animated terminal">
+<defs><linearGradient id="bar" x1="0" x2="1"><stop offset="0" stop-color="#182234"/><stop offset="1" stop-color="#241d0a"/></linearGradient>
+<filter id="g" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="6"/></filter>
+<clipPath id="c0"><rect x="42" y="50" width="0" height="28"><animate attributeName="width" calcMode="discrete" values="0.0;0.0;11.0;20.0;29.0;38.0;47.0;56.0;56.0;0.0" keyTimes="0.0000;0.0300;0.0345;0.0390;0.0435;0.0480;0.0525;0.0570;0.9700;0.9701" dur="20s" repeatCount="indefinite"/></rect></clipPath>
+<clipPath id="c1"><rect x="42" y="96" width="0" height="28"><animate attributeName="width" calcMode="discrete" values="0.0;0.0;11.0;20.0;29.0;38.0;47.0;56.0;65.0;74.0;83.0;92.0;101.0;110.0;119.0;119.0;0.0" keyTimes="0.0000;0.2100;0.2145;0.2190;0.2235;0.2280;0.2325;0.2370;0.2415;0.2460;0.2505;0.2550;0.2595;0.2640;0.2685;0.9700;0.9701" dur="20s" repeatCount="indefinite"/></rect></clipPath>
+<clipPath id="c2"><rect x="42" y="142" width="0" height="28"><animate attributeName="width" calcMode="discrete" values="0.0;0.0;11.0;20.0;29.0;38.0;47.0;56.0;65.0;74.0;83.0;92.0;101.0;110.0;110.0;0.0" keyTimes="0.0000;0.4000;0.4045;0.4090;0.4135;0.4180;0.4225;0.4270;0.4315;0.4360;0.4405;0.4450;0.4495;0.4540;0.9700;0.9701" dur="20s" repeatCount="indefinite"/></rect></clipPath>
+<clipPath id="c3"><rect x="42" y="188" width="0" height="28"><animate attributeName="width" calcMode="discrete" values="0.0;0.0;11.0;20.0;29.0;38.0;47.0;56.0;65.0;74.0;83.0;92.0;101.0;110.0;110.0;0.0" keyTimes="0.0000;0.5900;0.5945;0.5990;0.6035;0.6080;0.6125;0.6170;0.6215;0.6260;0.6305;0.6350;0.6395;0.6440;0.9700;0.9701" dur="20s" repeatCount="indefinite"/></rect></clipPath>
+</defs>
+<style>
+text{font-family:'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',monospace;font-size:15px}
+.p{fill:#D4AF37}.c{fill:#E6EDF3}.k{fill:#8B949E}.v{fill:#E7D9B0}
+@keyframes blink{50%{opacity:0}} .cur{animation:blink 1s steps(2) infinite}
+</style>
+<rect x="6" y="10" width="888" height="250" rx="14" fill="#D4AF37" opacity=".18" filter="url(#g)"><animate attributeName="opacity" values=".08;.28;.08" dur="4s" repeatCount="indefinite"/></rect>
+<rect x="1" y="1" width="898" height="260" rx="13" fill="#0B0F19" stroke="#D4AF37" stroke-opacity=".6"/>
+<path d="M1 14a13 13 0 0 1 13-13H886a13 13 0 0 1 13 13V36H1Z" fill="url(#bar)"/>
+<circle cx="24" cy="19" r="6" fill="#FF5F56"/><circle cx="46" cy="19" r="6" fill="#FFBD2E"/><circle cx="68" cy="19" r="6" fill="#27C93F"/>
+<text x="450.0" y="24" text-anchor="middle" class="k" style="font-size:12px">mohammed@agentic-ai: ~</text>
+<text x="24" y="70"><tspan class="p">❯</tspan></text><text x="42.0" y="70" class="c" clip-path="url(#c0)">whoami</text>
+<text x="48" y="93" class="v" opacity="0">Mohammed Abu Saada — Agentic AI Engineer<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.0695;0.0895;0.96;0.97;1" dur="20s" repeatCount="indefinite"/></text>
+<text x="24" y="116"><tspan class="p">❯</tspan></text><text x="42.0" y="116" class="c" clip-path="url(#c1)">cat focus.txt</text>
+<text x="48" y="139" class="v" opacity="0">AI Agents · RAG · Voice AI · n8n Automation<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.2810;0.3010;0.96;0.97;1" dur="20s" repeatCount="indefinite"/></text>
+<text x="24" y="162"><tspan class="p">❯</tspan></text><text x="42.0" y="162" class="c" clip-path="url(#c2)">ls products/</text>
+<text x="48" y="185" class="v" opacity="0">sahihly/   airank/   voice-agent/   booking-agent/<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.4665;0.4865;0.96;0.97;1" dur="20s" repeatCount="indefinite"/></text>
+<text x="24" y="208"><tspan class="p">❯</tspan></text><text x="42.0" y="208" class="c" clip-path="url(#c3)">status --now</text>
+<text x="48" y="231" class="v" opacity="0">● Shipping products · Open to remote work<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.6565;0.6765;0.96;0.97;1" dur="20s" repeatCount="indefinite"/></text>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.7190;0.7290;0.96;0.97;1" dur="20s" repeatCount="indefinite"/><text x="24" y="248"><tspan class="p">❯</tspan></text><rect class="cur" x="42.0" y="235" width="9" height="16" fill="#D4AF37"/></g>
 </svg>
