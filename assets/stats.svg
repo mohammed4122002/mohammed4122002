@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="150" viewBox="0 0 1000 150" role="img" aria-label="Highlights">
+<defs><linearGradient id="card" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#131c2e"/><stop offset="1" stop-color="#0e1422"/></linearGradient>
+<linearGradient id="shine" x1="0" x2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".10"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+<filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<linearGradient id="shimmer" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="520" y2="0" spreadMethod="repeat">
+<stop offset="0" stop-color="#B8912B"/><stop offset=".35" stop-color="#F5D87A"/><stop offset=".5" stop-color="#FFF6D6"/><stop offset=".65" stop-color="#F5D87A"/><stop offset="1" stop-color="#B8912B"/>
+<animateTransform attributeName="gradientTransform" type="translate" from="0 0" to="520 0" dur="4.5s" repeatCount="indefinite"/></linearGradient>
+<clipPath id="cc0"><rect x="8" y="8" width="233" height="134" rx="16"/></clipPath><clipPath id="cc1"><rect x="255" y="8" width="233" height="134" rx="16"/></clipPath><clipPath id="cc2"><rect x="502" y="8" width="233" height="134" rx="16"/></clipPath><clipPath id="cc3"><rect x="749" y="8" width="233" height="134" rx="16"/></clipPath></defs>
+<style>text{font-family:'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',monospace}
+@keyframes pop{0%{opacity:0;transform:translateY(24px) scale(.94)}100%{opacity:1;transform:none}}
+@keyframes ring{from{stroke-dashoffset:214}}
+.c{animation:pop .8s both cubic-bezier(.2,.8,.2,1)}
+.l{font-size:12px;letter-spacing:3px;fill:#8B949E}</style>
+<g class="c" style="animation-delay:0.0s">
+<rect x="8" y="8" width="233" height="134" rx="16" fill="url(#card)" stroke="#D4AF37" stroke-opacity=".5"/>
+<g clip-path="url(#cc0)"><rect y="8" width="90" height="134" fill="url(#shine)" transform="skewX(-20)"><animate attributeName="x" values="-132;308;308" keyTimes="0;.35;1" dur="5s" begin="0.0s" repeatCount="indefinite"/></rect></g>
+<circle cx="70" cy="75.0" r="34" fill="none" stroke="#fff" stroke-opacity=".08" stroke-width="6"/>
+<circle cx="70" cy="75.0" r="34" fill="none" stroke="#D4AF37" stroke-width="6" stroke-linecap="round" stroke-dasharray="192.3 213.6" transform="rotate(-90 70 75.0)" filter="url(#glow)"><animate attributeName="stroke-dasharray" from="0 213.6" to="192.3 213.6" dur="1.6s" begin="0.0s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines=".2 .8 .2 1"/></circle>
+<circle cx="104" cy="75.0" r="3.5" fill="#FFF3C4" filter="url(#glow)"><animateTransform attributeName="transform" type="rotate" from="0 70 75.0" to="360 70 75.0" dur="4s" repeatCount="indefinite"/></circle>
+<text x="70" y="81.0" text-anchor="middle" font-size="19" font-weight="800" fill="url(#shimmer)">9+</text>
+<text class="l" x="126" y="71.0" style="fill:#E6EDF3;font-weight:700">CLIENT</text><text class="l" x="126" y="91.0">PROJECTS</text></g>
+<g class="c" style="animation-delay:0.18s">
+<rect x="255" y="8" width="233" height="134" rx="16" fill="url(#card)" stroke="#D4AF37" stroke-opacity=".5"/>
+<g clip-path="url(#cc1)"><rect y="8" width="90" height="134" fill="url(#shine)" transform="skewX(-20)"><animate attributeName="x" values="115;555;555" keyTimes="0;.35;1" dur="5s" begin="0.6s" repeatCount="indefinite"/></rect></g>
+<circle cx="317" cy="75.0" r="34" fill="none" stroke="#fff" stroke-opacity=".08" stroke-width="6"/>
+<circle cx="317" cy="75.0" r="34" fill="none" stroke="#D4AF37" stroke-width="6" stroke-linecap="round" stroke-dasharray="141.0 213.6" transform="rotate(-90 317 75.0)" filter="url(#glow)"><animate attributeName="stroke-dasharray" from="0 213.6" to="141.0 213.6" dur="1.6s" begin="0.18s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines=".2 .8 .2 1"/></circle>
+<circle cx="351" cy="75.0" r="3.5" fill="#FFF3C4" filter="url(#glow)"><animateTransform attributeName="transform" type="rotate" from="0 317 75.0" to="360 317 75.0" dur="5s" repeatCount="indefinite"/></circle>
+<text x="317" y="81.0" text-anchor="middle" font-size="19" font-weight="800" fill="url(#shimmer)">2</text>
+<text class="l" x="373" y="71.0" style="fill:#E6EDF3;font-weight:700">LIVE</text><text class="l" x="373" y="91.0">PRODUCTS</text></g>
+<g class="c" style="animation-delay:0.36s">
+<rect x="502" y="8" width="233" height="134" rx="16" fill="url(#card)" stroke="#D4AF37" stroke-opacity=".5"/>
+<g clip-path="url(#cc2)"><rect y="8" width="90" height="134" fill="url(#shine)" transform="skewX(-20)"><animate attributeName="x" values="362;802;802" keyTimes="0;.35;1" dur="5s" begin="1.2s" repeatCount="indefinite"/></rect></g>
+<circle cx="564" cy="75.0" r="34" fill="none" stroke="#fff" stroke-opacity=".08" stroke-width="6"/>
+<circle cx="564" cy="75.0" r="34" fill="none" stroke="#D4AF37" stroke-width="6" stroke-linecap="round" stroke-dasharray="170.9 213.6" transform="rotate(-90 564 75.0)" filter="url(#glow)"><animate attributeName="stroke-dasharray" from="0 213.6" to="170.9 213.6" dur="1.6s" begin="0.36s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines=".2 .8 .2 1"/></circle>
+<circle cx="598" cy="75.0" r="3.5" fill="#FFF3C4" filter="url(#glow)"><animateTransform attributeName="transform" type="rotate" from="0 564 75.0" to="360 564 75.0" dur="6s" repeatCount="indefinite"/></circle>
+<text x="564" y="81.0" text-anchor="middle" font-size="19" font-weight="800" fill="url(#shimmer)">90h</text>
+<text class="l" x="620" y="71.0" style="fill:#E6EDF3;font-weight:700">TRAINING</text><text class="l" x="620" y="91.0">PROGRAM</text></g>
+<g class="c" style="animation-delay:0.54s">
+<rect x="749" y="8" width="233" height="134" rx="16" fill="url(#card)" stroke="#D4AF37" stroke-opacity=".5"/>
+<g clip-path="url(#cc3)"><rect y="8" width="90" height="134" fill="url(#shine)" transform="skewX(-20)"><animate attributeName="x" values="609;1049;1049" keyTimes="0;.35;1" dur="5s" begin="1.7999999999999998s" repeatCount="indefinite"/></rect></g>
+<circle cx="811" cy="75.0" r="34" fill="none" stroke="#fff" stroke-opacity=".08" stroke-width="6"/>
+<circle cx="811" cy="75.0" r="34" fill="none" stroke="#D4AF37" stroke-width="6" stroke-linecap="round" stroke-dasharray="213.6 213.6" transform="rotate(-90 811 75.0)" filter="url(#glow)"><animate attributeName="stroke-dasharray" from="0 213.6" to="213.6 213.6" dur="1.6s" begin="0.54s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines=".2 .8 .2 1"/></circle>
+<circle cx="845" cy="75.0" r="3.5" fill="#FFF3C4" filter="url(#glow)"><animateTransform attributeName="transform" type="rotate" from="0 811 75.0" to="360 811 75.0" dur="7s" repeatCount="indefinite"/></circle>
+<text x="811" y="81.0" text-anchor="middle" font-size="15" font-weight="800" fill="url(#shimmer)">2026</text>
+<text class="l" x="867" y="71.0" style="fill:#E6EDF3;font-weight:700">B.SC. CSE</text><text class="l" x="867" y="91.0">GRADUATE</text></g>
+</svg>

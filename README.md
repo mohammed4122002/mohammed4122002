@@ -5,11 +5,7 @@
 
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=240&color=0:0B0F19,45:182234,100:D4AF37&text=MOHAMMED%20ABU%20SAADA&fontSize=42&fontColor=FFFFFF&fontAlignY=38&desc=AGENTIC%20AI%20ENGINEER%20%7C%20AI%20AUTOMATION%20%7C%20FULL-STACK&descSize=14&descAlignY=58&descColor=E7D9B0&animation=fadeIn" />
-
-<a href="https://github.com/mohammed4122002">
-  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=600&size=19&duration=2800&pause=900&color=D4AF37&center=true&vCenter=true&width=760&height=50&lines=Building+AI+Agents+that+do+real+work;Designing+intelligent+automation+systems;Connecting+LLMs%2C+APIs%2C+and+real-world+workflows;Turning+ideas+into+deployed+products" alt="Animated introduction" />
-</a>
+<img width="100%" src="assets/hero.svg" alt="Mohammed Abu Saada — Agentic AI Engineer" />
 
 <br/>
 
@@ -19,18 +15,22 @@
 
 <br/><br/>
 
-<img src="assets/terminal.svg" width="760" alt="Animated terminal intro" />
+<img src="assets/terminal.svg" width="800" alt="Animated terminal intro" />
 
 <br/><br/>
 
 <img src="https://komarev.com/ghpvc/?username=mohammed4122002&style=for-the-badge&color=D4AF37&label=PROFILE+VIEWS" alt="Profile views" />
 <img src="https://img.shields.io/github/followers/mohammed4122002?style=for-the-badge&color=D4AF37&labelColor=0B0F19&label=FOLLOWERS" alt="GitHub followers" />
 
+<br/><br/>
+
+<img src="assets/stats.svg" width="100%" alt="9+ client projects, 2 live products, 90-hour training program, 2026 graduate" />
+
 </div>
 
 <div align="center"><img src="assets/divider.svg" width="100%" alt="" /></div>
 
-## ◈ About Me
+<h2><img src="assets/h-about.svg" width="100%" alt="About Me" /></h2>
 
 I'm an **Agentic AI Engineer** and **Computer Systems Engineering graduate (2026)** focused on building practical AI products, intelligent agents, and business automation systems.
 
@@ -46,7 +46,7 @@ I work across the full journey: understanding a problem, designing the workflow,
 
 <div align="center"><img src="assets/divider.svg" width="100%" alt="" /></div>
 
-## ◈ Featured Work
+<h2><img src="assets/h-work.svg" width="100%" alt="Featured Work" /></h2>
 
 <table>
 <tr>
@@ -117,9 +117,23 @@ A conversational assessment experience that creates personalized reports and aut
 
 <div align="center"><img src="assets/divider.svg" width="100%" alt="" /></div>
 
-## ◈ Technology Arsenal
+<h2><img src="assets/h-flow.svg" width="100%" alt="Agentic Workflow" /></h2>
 
 <div align="center">
+
+<img src="assets/workflow.svg" width="100%" alt="Animated agentic workflow: channels, LLM agent orchestrator, tools, human handoff" />
+
+</div>
+
+<div align="center"><img src="assets/divider.svg" width="100%" alt="" /></div>
+
+<h2><img src="assets/h-stack.svg" width="100%" alt="Technology Arsenal" /></h2>
+
+<div align="center">
+
+<img src="assets/orbit.svg" width="100%" alt="Orbiting technology stack" />
+
+<br/>
 
 <img src="assets/marquee.svg" width="100%" alt="Scrolling technology stack" />
 
@@ -148,7 +162,7 @@ A conversational assessment experience that creates personalized reports and aut
 
 <div align="center"><img src="assets/divider.svg" width="100%" alt="" /></div>
 
-## ◈ Experience & Education
+<h2><img src="assets/h-exp.svg" width="100%" alt="Experience & Education" /></h2>
 
 | Role | Organization | Period |
 |---|---|---|
@@ -160,7 +174,7 @@ A conversational assessment experience that creates personalized reports and aut
 
 <div align="center"><img src="assets/divider.svg" width="100%" alt="" /></div>
 
-## ◈ Certifications
+<h2><img src="assets/h-cert.svg" width="100%" alt="Certifications" /></h2>
 
 - Advanced RAG with Vector Databases and Retrievers — IBM / Coursera
 - Vector Databases for RAG: An Introduction — IBM / Coursera
@@ -172,7 +186,7 @@ A conversational assessment experience that creates personalized reports and aut
 
 <div align="center"><img src="assets/divider.svg" width="100%" alt="" /></div>
 
-## ◈ GitHub Intelligence
+<h2><img src="assets/h-gh.svg" width="100%" alt="GitHub Intelligence" /></h2>
 
 <div align="center">
 
@@ -206,7 +220,7 @@ A conversational assessment experience that creates personalized reports and aut
 
 <div align="center"><img src="assets/divider.svg" width="100%" alt="" /></div>
 
-## ◈ Let's Build Something Intelligent
+<h2><img src="assets/h-contact.svg" width="100%" alt="Let's Connect" /></h2>
 
 <div align="center">
 
@@ -216,8 +230,6 @@ A conversational assessment experience that creates personalized reports and aut
 
 <br/><br/>
 
-**I turn complex workflows into intelligent systems — and ideas into products.**
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=130&section=footer&color=0:D4AF37,55:182234,100:0B0F19" />
+<img width="100%" src="assets/footer.svg" alt="Let's build something intelligent" />
 
 </div>
