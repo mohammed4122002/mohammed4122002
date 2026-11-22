@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="272" viewBox="0 0 440 272" role="img" aria-label="WhatsApp MBTI &amp; Payments — Assessment + Delivery Bot">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#141d31"/><stop offset="1" stop-color="#0b101c"/></linearGradient>
+<linearGradient id="sh" x1="0" x2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".09"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+<linearGradient id="gt" x1="0" x2="1"><stop offset="0" stop-color="#fff"/><stop offset="1" stop-color="#F5D87A"/></linearGradient>
+<radialGradient id="spot"><stop offset="0" stop-color="#D4AF37" stop-opacity=".22"/><stop offset="1" stop-color="#D4AF37" stop-opacity="0"/></radialGradient>
+<filter id="glow" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<clipPath id="cl"><rect x="1" y="1" width="438" height="270" rx="18"/></clipPath>
+<pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#fff" opacity=".07"/></pattern></defs>
+<style>@keyframes in{from{opacity:0;transform:translateY(22px)}to{opacity:1;transform:none}}
+@keyframes bob{50%{transform:translateY(-4px)}}
+.i{animation:in .8s both cubic-bezier(.2,.8,.2,1)} .v{animation:bob 4s ease-in-out infinite}
+text{font-family:'Segoe UI','Helvetica Neue',Arial,sans-serif} .m{font-family:'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',monospace}</style>
+<rect x="1" y="1" width="438" height="270" rx="18" fill="url(#bg)"/>
+<g clip-path="url(#cl)"><rect width="440" height="272" fill="url(#dots)"/>
+<circle cx="380" cy="40" r="170" fill="url(#spot)"><animate attributeName="cx" values="380;240;380" dur="9s" repeatCount="indefinite"/><animate attributeName="r" values="150;200;150" dur="6s" repeatCount="indefinite"/></circle>
+<text class="m" x="416" y="258" text-anchor="end" font-size="96" font-weight="900" fill="#fff" opacity=".05">06</text>
+<rect y="0" width="110" height="272" fill="url(#sh)" transform="skewX(-18)"><animate attributeName="x" values="-200;540;540" keyTimes="0;.4;1" dur="6s" begin="4.0s" repeatCount="indefinite"/></rect></g>
+<g class="i" style="animation-delay:0.5s">
+<rect x="26" y="26" width="3" height="14" fill="#D4AF37"/><text class="m" x="38" y="38" font-size="11" letter-spacing="4" fill="#D4AF37">06 / CHATBOT</text>
+<text x="26" y="82" font-size="21" font-weight="800" fill="url(#gt)">WhatsApp MBTI &amp; Payments</text>
+<text class="m" x="26" y="104" font-size="12.5" fill="#F5D87A" opacity=".9">Assessment + Delivery Bot</text>
+<g font-size="12.5" fill="#9aa4b2">
+<text x="26" y="138">A conversational assessment experience that creates</text>
+<text x="26" y="158">personalized reports and automates payment and</text>
+<text x="26" y="178">delivery workflows.</text>
+</g>
+<g><rect x="26" y="222" width="83" height="26" rx="13" fill="#0B0F19" stroke="#D4AF37" stroke-opacity=".6"/><circle cx="38" cy="235" r="3" fill="#D4AF37"><animate attributeName="opacity" values="1;.3;1" dur="2.3s" repeatCount="indefinite"/></circle><text class="m" x="48" y="239" font-size="10.5" font-weight="700" fill="#E6EDF3" letter-spacing="1">WHATSAPP</text></g>
+<g><rect x="117" y="222" width="83" height="26" rx="13" fill="#0B0F19" stroke="#D4AF37" stroke-opacity=".6"/><circle cx="129" cy="235" r="3" fill="#D4AF37"><animate attributeName="opacity" values="1;.3;1" dur="2.3s" repeatCount="indefinite"/></circle><text class="m" x="139" y="239" font-size="10.5" font-weight="700" fill="#E6EDF3" letter-spacing="1">PAYMENTS</text></g>
+<g><rect x="208" y="222" width="76" height="26" rx="13" fill="#0B0F19" stroke="#D4AF37" stroke-opacity=".6"/><circle cx="220" cy="235" r="3" fill="#D4AF37"><animate attributeName="opacity" values="1;.3;1" dur="1.9s" repeatCount="indefinite"/></circle><text class="m" x="230" y="239" font-size="10.5" font-weight="700" fill="#E6EDF3" letter-spacing="1">REPORTS</text></g>
+<g transform="translate(322 24)"><g class="v"><g opacity="0"><rect x="0" y="0" width="64" height="16" rx="8" fill="#fff" opacity="0.18"/><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.00;0.06;.9;1" dur="6s" repeatCount="indefinite"/></g><g opacity="0"><rect x="36" y="20" width="60" height="16" rx="8" fill="#D4AF37" opacity="0.9"/><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.20;0.26;.9;1" dur="6s" repeatCount="indefinite"/></g><g opacity="0"><rect x="0" y="40" width="44" height="16" rx="8" fill="#fff" opacity="0.18"/><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.40;0.46;.9;1" dur="6s" repeatCount="indefinite"/></g><circle cx="10" cy="48" r="2.2" fill="#D4AF37" opacity="0"><animate attributeName="opacity" values="0;1;0" dur=".9s" begin="2.4s;8.4s" repeatCount="indefinite"/></circle><circle cx="18" cy="48" r="2.2" fill="#D4AF37" opacity="0"><animate attributeName="opacity" values="0;1;0" dur=".9s" begin="2.55s;8.55s" repeatCount="indefinite"/></circle><circle cx="26" cy="48" r="2.2" fill="#D4AF37" opacity="0"><animate attributeName="opacity" values="0;1;0" dur=".9s" begin="2.6999999999999997s;8.700000000000001s" repeatCount="indefinite"/></circle></g></g></g>
+<rect x="1" y="1" width="438" height="270" rx="18" fill="none" stroke="#D4AF37" stroke-opacity=".28"/>
+<rect x="1" y="1" width="438" height="270" rx="18" fill="none" stroke="#F5D87A" stroke-width="2.5" pathLength="1000" stroke-dasharray="110 890" stroke-linecap="round" filter="url(#glow)"><animate attributeName="stroke-dashoffset" from="0" to="-1000" dur="7s" begin="-6.5s" repeatCount="indefinite"/></rect></svg>
