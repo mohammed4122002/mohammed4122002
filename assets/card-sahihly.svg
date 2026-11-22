@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="272" viewBox="0 0 440 272" role="img" aria-label="Sahihly — Bilingual AI Detector &amp; Humanizer">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#141d31"/><stop offset="1" stop-color="#0b101c"/></linearGradient>
+<linearGradient id="sh" x1="0" x2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".09"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+<linearGradient id="gt" x1="0" x2="1"><stop offset="0" stop-color="#fff"/><stop offset="1" stop-color="#F5D87A"/></linearGradient>
+<radialGradient id="spot"><stop offset="0" stop-color="#D4AF37" stop-opacity=".22"/><stop offset="1" stop-color="#D4AF37" stop-opacity="0"/></radialGradient>
+<filter id="glow" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<clipPath id="cl"><rect x="1" y="1" width="438" height="270" rx="18"/></clipPath>
+<pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#fff" opacity=".07"/></pattern></defs>
+<style>@keyframes in{from{opacity:0;transform:translateY(22px)}to{opacity:1;transform:none}}
+@keyframes bob{50%{transform:translateY(-4px)}}
+.i{animation:in .8s both cubic-bezier(.2,.8,.2,1)} .v{animation:bob 4s ease-in-out infinite}
+text{font-family:'Segoe UI','Helvetica Neue',Arial,sans-serif} .m{font-family:'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',monospace}</style>
+<rect x="1" y="1" width="438" height="270" rx="18" fill="url(#bg)"/>
+<g clip-path="url(#cl)"><rect width="440" height="272" fill="url(#dots)"/>
+<circle cx="380" cy="40" r="170" fill="url(#spot)"><animate attributeName="cx" values="380;240;380" dur="9s" repeatCount="indefinite"/><animate attributeName="r" values="150;200;150" dur="6s" repeatCount="indefinite"/></circle>
+<text class="m" x="416" y="258" text-anchor="end" font-size="96" font-weight="900" fill="#fff" opacity=".05">01</text>
+<rect y="0" width="110" height="272" fill="url(#sh)" transform="skewX(-18)"><animate attributeName="x" values="-200;540;540" keyTimes="0;.4;1" dur="6s" begin="0.0s" repeatCount="indefinite"/></rect></g>
+<g class="i" style="animation-delay:0.0s">
+<rect x="26" y="26" width="3" height="14" fill="#D4AF37"/><text class="m" x="38" y="38" font-size="11" letter-spacing="4" fill="#D4AF37">01 / LIVE PRODUCT</text>
+<text x="26" y="82" font-size="21" font-weight="800" fill="url(#gt)">Sahihly</text>
+<text class="m" x="26" y="104" font-size="12.5" fill="#F5D87A" opacity=".9">Bilingual AI Detector &amp; Humanizer</text>
+<g font-size="12.5" fill="#9aa4b2">
+<text x="26" y="138">A live Arabic/English SaaS for AI-text analysis and</text>
+<text x="26" y="158">rewriting, with sentence-level highlights, style</text>
+<text x="26" y="178">reports, and a verify-after-rewrite loop.</text>
+</g>
+<g><rect x="26" y="222" width="76" height="26" rx="13" fill="#0B0F19" stroke="#D4AF37" stroke-opacity=".6"/><circle cx="38" cy="235" r="3" fill="#D4AF37"><animate attributeName="opacity" values="1;.3;1" dur="1.9s" repeatCount="indefinite"/></circle><text class="m" x="48" y="239" font-size="10.5" font-weight="700" fill="#E6EDF3" letter-spacing="1">NEXT.JS</text></g>
+<g><rect x="110" y="222" width="46" height="26" rx="13" fill="#0B0F19" stroke="#D4AF37" stroke-opacity=".6"/><circle cx="122" cy="235" r="3" fill="#D4AF37"><animate attributeName="opacity" values="1;.3;1" dur="1.5s" repeatCount="indefinite"/></circle><text class="m" x="132" y="239" font-size="10.5" font-weight="700" fill="#E6EDF3" letter-spacing="1">LLM</text></g>
+<g><rect x="164" y="222" width="76" height="26" rx="13" fill="#0B0F19" stroke="#D4AF37" stroke-opacity=".6"/><circle cx="176" cy="235" r="3" fill="#D4AF37"><animate attributeName="opacity" values="1;.3;1" dur="1.9s" repeatCount="indefinite"/></circle><text class="m" x="186" y="239" font-size="10.5" font-weight="700" fill="#E6EDF3" letter-spacing="1">AR / EN</text></g>
+<g transform="translate(322 24)"><g class="v"><rect x="0" y="0" width="90" height="6" rx="3" fill="#fff" opacity=".18"/><rect x="0" y="0" width="90" height="6" rx="3" fill="#D4AF37" opacity="0"><animate attributeName="opacity" values="0;0;.95;.95;0;0" keyTimes="0;0.02;0.12;0.40;0.50;1" dur="4s" repeatCount="indefinite"/></rect><rect x="0" y="12" width="70" height="6" rx="3" fill="#fff" opacity=".18"/><rect x="0" y="12" width="70" height="6" rx="3" fill="#D4AF37" opacity="0"><animate attributeName="opacity" values="0;0;.95;.95;0;0" keyTimes="0;0.10;0.20;0.48;0.58;1" dur="4s" repeatCount="indefinite"/></rect><rect x="0" y="24" width="84" height="6" rx="3" fill="#fff" opacity=".18"/><rect x="0" y="24" width="84" height="6" rx="3" fill="#D4AF37" opacity="0"><animate attributeName="opacity" values="0;0;.95;.95;0;0" keyTimes="0;0.18;0.28;0.56;0.66;1" dur="4s" repeatCount="indefinite"/></rect><rect x="0" y="36" width="56" height="6" rx="3" fill="#fff" opacity=".18"/><rect x="0" y="36" width="56" height="6" rx="3" fill="#D4AF37" opacity="0"><animate attributeName="opacity" values="0;0;.95;.95;0;0" keyTimes="0;0.26;0.36;0.64;0.74;1" dur="4s" repeatCount="indefinite"/></rect><rect x="0" y="48" width="78" height="6" rx="3" fill="#fff" opacity=".18"/><rect x="0" y="48" width="78" height="6" rx="3" fill="#D4AF37" opacity="0"><animate attributeName="opacity" values="0;0;.95;.95;0;0" keyTimes="0;0.34;0.44;0.72;0.82;1" dur="4s" repeatCount="indefinite"/></rect><rect x="0" y="-4" width="100" height="2" fill="#F5D87A" opacity=".8"><animate attributeName="y" values="-4;62;-4" dur="4s" repeatCount="indefinite"/></rect></g></g></g>
+<rect x="1" y="1" width="438" height="270" rx="18" fill="none" stroke="#D4AF37" stroke-opacity=".28"/>
+<rect x="1" y="1" width="438" height="270" rx="18" fill="none" stroke="#F5D87A" stroke-width="2.5" pathLength="1000" stroke-dasharray="110 890" stroke-linecap="round" filter="url(#glow)"><animate attributeName="stroke-dashoffset" from="0" to="-1000" dur="5s" begin="-0.0s" repeatCount="indefinite"/></rect></svg>

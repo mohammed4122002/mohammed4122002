@@ -50,68 +50,16 @@ I work across the full journey: understanding a problem, designing the workflow,
 
 <table>
 <tr>
-<td width="50%" valign="top">
-
-### <a href="https://sahihly.com">01 / Sahihly</a>
-**Bilingual AI Detector & Humanizer**
-
-A live Arabic/English SaaS product for AI-text analysis and rewriting, with sentence-level highlights, style reports, and a verify-after-rewrite loop.
-
-<img src="https://img.shields.io/badge/NEXT.JS-0B0F19?style=flat-square&logo=nextdotjs&logoColor=FFFFFF" />
-<img src="https://img.shields.io/badge/LLM-0B0F19?style=flat-square&logo=openai&logoColor=D4AF37" />
-
-</td>
-<td width="50%" valign="top">
-
-### <a href="https://airanktools.com">02 / AI Rank</a>
-**Arabic AI Tools Directory**
-
-A platform for discovering, reviewing, and comparing AI tools across six criteria, with an AI Matchmaker recommender and SEO-focused comparison pages.
-
-<img src="https://img.shields.io/badge/NEXT.JS-0B0F19?style=flat-square&logo=nextdotjs&logoColor=FFFFFF" />
-<img src="https://img.shields.io/badge/TYPESCRIPT-0B0F19?style=flat-square&logo=typescript&logoColor=3178C6" />
-
-</td>
+<td width="50%"><a href="https://sahihly.com"><img src="assets/card-sahihly.svg" width="100%" alt="Sahihly — Bilingual AI Detector and Humanizer" /></a></td>
+<td width="50%"><a href="https://airanktools.com"><img src="assets/card-airank.svg" width="100%" alt="AI Rank — Arabic AI Tools Directory" /></a></td>
 </tr>
 <tr>
-<td width="50%" valign="top">
-
-### 03 / Voice AI Support Agent
-**Arabic Voice Agent · Fintech Demo**
-
-Verifies caller identity, answers from a knowledge base, opens support tickets, escalates to a human, and logs call summaries. Uses demo data only.
-
-<img src="https://img.shields.io/badge/n8n-0B0F19?style=flat-square&logo=n8n&logoColor=EA4B71" />
-<img src="https://img.shields.io/badge/ElevenLabs-0B0F19?style=flat-square&logo=elevenlabs&logoColor=FFFFFF" />
-<img src="https://img.shields.io/badge/MCP-0B0F19?style=flat-square&logoColor=D4AF37" />
-
-</td>
-<td width="50%" valign="top">
-
-### 04 / AI Booking & Support Agent
-**Multi-Channel Business Automation**
-
-Handles WhatsApp, Telegram, and web-chat requests, appointment intake, calendar synchronization, reminders, and human escalation.
-
-<img src="https://img.shields.io/badge/n8n-0B0F19?style=flat-square&logo=n8n&logoColor=EA4B71" />
-<img src="https://img.shields.io/badge/OpenAI-0B0F19?style=flat-square&logo=openai&logoColor=FFFFFF" />
-<img src="https://img.shields.io/badge/Google_Calendar-0B0F19?style=flat-square&logo=googlecalendar&logoColor=4285F4" />
-
-</td>
+<td width="50%"><img src="assets/card-voice.svg" width="100%" alt="Voice AI Support Agent — Arabic voice agent, fintech demo" /></td>
+<td width="50%"><img src="assets/card-booking.svg" width="100%" alt="AI Booking and Support Agent — multi-channel business automation" /></td>
 </tr>
 <tr>
-<td width="50%" valign="top">
-
-### 05 / Multi-Agent Telegram Bot
-A supervisor workflow routing requests to specialized research, writing, and data agents with shared context and tool calling.
-
-</td>
-<td width="50%" valign="top">
-
-### 06 / WhatsApp MBTI & Payments Bot
-A conversational assessment experience that creates personalized reports and automates payment and delivery workflows.
-
-</td>
+<td width="50%"><img src="assets/card-multi.svg" width="100%" alt="Multi-Agent Telegram Bot — supervisor and specialist agents" /></td>
+<td width="50%"><img src="assets/card-mbti.svg" width="100%" alt="WhatsApp MBTI and Payments Bot — assessment and delivery" /></td>
 </tr>
 </table>
 
